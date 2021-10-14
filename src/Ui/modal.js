@@ -1,5 +1,5 @@
 export class Modal {
-  constructor(contentId) {
+  constructor(contentId, fallbackText) {
     this.fallbackText = fallbackText;
     this.contentTemplateElement = document.getElementById(contentId);
     this.modalTemplateEl = document.getElementById('modal-template');
